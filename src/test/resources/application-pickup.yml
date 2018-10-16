@@ -1,0 +1,12 @@
+de.demo.valet.dummy-pickup-hours:
+  pickups:
+  - id: 900
+    hour: 10
+  - id: 901
+    hour: 10
+  - id: 902
+    hour: 12
+  - id: 903
+    hour: 13
+  - id: 904
+    hour: 15

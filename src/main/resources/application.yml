@@ -1,0 +1,21 @@
+
+de.demo.valet.dummy-pickup-hours:
+  pickups:
+  - id: 900
+    hour: 10
+  - id: 901
+    hour: 10
+  - id: 902
+    hour: 12
+  - id: 903
+    hour: 13
+  - id: 904
+    hour: 15
+
+server:
+  servlet.context-path: /bryc
+  port: 9000
+
+spring.cache.caffeine.spec:
+  maximumSize: 500
+  expireAfterAccess: 3600s  #1 Hour
